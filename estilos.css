@@ -1,0 +1,104 @@
+/* Header_estilos */
+.colorTitulo{
+    color: yellow;
+}
+.centrar{
+    text-align: center;
+}
+.alinearDerecha {
+    float: right;
+}
+.alineaArriba { 
+    text-align: justify;
+}
+.fondoSecundario{
+    background-color: rgb(13, 231, 158);
+}
+/* Estructura_general_body */
+body {
+    background-color: peachpuff;
+}
+header h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 300px;
+    background-image: url("./img/patos_blanco.jpg");
+    background-repeat: repeat-x;
+    height: 50px;
+}
+.fuenteTitulo{
+    font-family: lobster;
+    src: url("./fonts/lobster/Lobster-Regular.ttf");
+}
+h1 {
+    font-family: 'Lobster-Regular.ttf';
+}
+.fondo1 {
+    background-image: url(./img/plumaje.jpg);
+}
+.seccion2 {
+    background-color: orange;
+    margin-top: 50px;
+}
+.cajaPrimera {
+    background-color: red;
+    color: bisque;
+    width: 500px;
+    display: inline-block;
+    margin: 20px;
+}
+main section iframe {
+    height: 150px;
+    width: 500px;
+    padding-left: 100px;
+    display: inline;
+}
+
+/* Menu */
+span {
+    background-color: red;
+    color: bisque;
+    width: 100px;
+    height: 50px;
+    margin: 25px 10px 25px 10px;
+    padding: 10px 25px;
+    text-align: left;
+    border-radius: 7px;
+}
+nav ul span a { 
+    color: bisque;
+    text-decoration: none;
+}
+nav {
+margin-top: 5px;
+margin-bottom: 5px;
+margin-right: 5px;
+margin-left: 5px;
+
+}
+.margenLogo {
+margin-top: 5px;
+margin-bottom: 5px;
+margin-right: 150px;
+margin-left: 5px;
+}
+/* fonts */
+@font-face {
+    font-family: lobster;
+    src: url("./fonts/lobster/Lobster-Regular.ttf");
+}
+@font-face {
+    font-family: kanitBlack;
+    src: url("./fonts/kanit/Kanit-Black.ttf");;
+}
+
+.fuenteTexto {
+    color: rgb(50, 55, 55);
+    font-family: "lobster";
+    font-size: 30px;
+   }
+.fuenteParrafo {
+    color: bisque;
+    font-family: kanitBlack;
+}   
+
